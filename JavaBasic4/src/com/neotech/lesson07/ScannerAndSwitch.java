@@ -1,0 +1,68 @@
+package com.neotech.lesson07;
+
+import java.util.Scanner;
+
+public class ScannerAndSwitch {
+
+	public static void main(String[] args) {
+		
+		
+		String country;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		
+		System.out.println("Where are you from: ");
+		country  = scan.next();
+		
+		
+
+		switch(country) {
+		
+		case "Turkiye":
+			System.out.println("You speak Turkish!");
+			break;
+		
+		case "Kosova":	
+		case "Albania":
+			System.out.println("You speak Albenian!");
+			break;
+			
+		case "Spain":
+		case "Ecvador":
+			System.out.println("You speak Spanish!");
+			break;
+		
+		case "USA":
+		case "UK":
+			System.out.println("You speak English");
+			break;
+			
+		default:
+			System.out.println("i dont know what language you speak!");
+		
+		
+		
+		
+		
+		
+		
+		
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

@@ -1,0 +1,41 @@
+package utils;
+
+public class Constants {
+
+/*	public static final String CHROME_DRIVER_PATH = 
+	
+	/*		System.getProperty("user.dir") + "/drivers/chromedriver";
+	
+	// you can add for firefox decko driver but i dont use it because i did't add.
+	
+	
+	public static final String CONFIGURATION_FILEPATH = System.getProperty("user.dir")
+	+ "/configs/configuration.properties";
+			*/
+	
+	
+	
+	
+	
+	public static final String CHROME_DRIVER_PATH = System.getProperty("user.dir") + "/drivers/chromedriver";
+
+	public static final String GECKO_DRIVER_PATH = System.getProperty("user.dir") + "/drivers/geckodriver";
+
+	public static final String CONFIGURATION_FILEPATH = System.getProperty("user.dir") + "/configs/configuration.properties";
+
+	public static final int IMPLICIT_WAIT_TIME = 15;
+	
+	public static final int EXPLICIT_WAIT_TIME = 25;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
